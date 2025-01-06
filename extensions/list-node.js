@@ -19,15 +19,6 @@ class LinkedList {
     }
 
   }
-  prepend(value) {
-    if (!this.head) {
-      this.head = this.tail = new ListNode(value);
-    } else {
-      let oldHead = this.head;
-      this.head = new ListNode(value);
-      this.head.next = oldHead;
-    }
-  }
 }
 
 module.exports = {
