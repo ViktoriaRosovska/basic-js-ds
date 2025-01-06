@@ -2,7 +2,7 @@ const { checkForThrowingErrors, checkForNotThrowingErrors } = require('./check-e
 const { CONSTANTS } = require('./constants.js');
 const { testOptional } = require('./it-optional.js');
 const { NotImplementedError } = require('./not-implemented-error.js');
-const { ListNode } = require('./list-node.js');
+const { ListNode, LinkedList } = require('./list-node.js');
 
 module.exports = {
     checkForThrowingErrors,
@@ -10,5 +10,6 @@ module.exports = {
     CONSTANTS,
     testOptional,
     NotImplementedError,
-    ListNode
+    ListNode,
+    LinkedList
 };
